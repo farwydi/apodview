@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "dev:ssr": "ng run apodview:serve-ssr",
     "serve:ssr": "node dist/apodview/server/main.js",
-    "build:ssr": "ng build --prod && ng run apodview:server:production",
+    "build:ssr": "ng build --prod --progress=false && ng run apodview:server:production",
     "prerender": "ng run apodview:prerender"
   },
   "private": true,
